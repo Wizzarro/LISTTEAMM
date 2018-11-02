@@ -40,7 +40,6 @@ export default class Team extends Component {
               <span className="glyphicon glyphicon-minus"></span>
               </button>
               <span> </span>
-              {this.props.team.score}
               <span> </span>
               <button onClick={this.addPlus.bind(this)}>
               <span className="glyphicon glyphicon-plus"></span>

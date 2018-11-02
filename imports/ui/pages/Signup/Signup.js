@@ -70,6 +70,7 @@ class Signup extends React.Component {
           first: form.firstName.value,
           last: form.lastName.value,
         },
+        money: 100,
       },
     }, (error) => {
       if (error) {
